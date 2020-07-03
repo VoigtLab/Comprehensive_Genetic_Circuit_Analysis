@@ -1,8 +1,9 @@
 
 
-""" Author: Amin Espah Borujeni < amin.espah@gmail.com > , Voigt Lab , MIT """
+""" Authors: 	Amin Espah Borujeni < amin.espah@gmail.com > , Voigt Lab , MIT
+		Jing Zhang < jgzhang@bu.edu > , Voigt Lab , MIT """
 
-""" Last updated: 06/20/2020"""
+""" Last updated: 06/25/2020"""
 
 # ---------------------------------------------------------------------------------------------------------------------------------------- #
 # ---------------------------------------------------------------------------------------------------------------------------------------- #
@@ -10,18 +11,12 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import pickle
-from matplotlib.colors import LogNorm
 import copy
-import time
-import random
-from scipy.stats import gamma
 import xlrd
 import xlwt
 import math
-import matplotlib.patches as patches
-from matplotlib import gridspec
-import pylab
 from scipy import stats, optimize
+import subprocess
 
 # ---------------------------------------------------------------------------------------------------------------------------------------- #
 # ---------------------------------------------------------------------------------------------------------------------------------------- #
